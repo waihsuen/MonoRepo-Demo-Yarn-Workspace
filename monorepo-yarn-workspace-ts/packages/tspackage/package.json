@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/tspackage",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.3.3"
+  }
+}

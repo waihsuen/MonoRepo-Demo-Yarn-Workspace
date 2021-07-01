@@ -1,0 +1,9 @@
+{
+  "name": "@monorepo/package-a",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/workspace-b": "1.0.0"
+  }
+}

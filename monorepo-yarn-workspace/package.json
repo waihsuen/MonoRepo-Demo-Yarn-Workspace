@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd frontend start"
+  }
+}
